@@ -1,0 +1,251 @@
+html, body{
+	padding: 0;
+	margin:0;
+	height: 100%;
+	width: 100%;
+}
+.body{
+  display: block;   
+}
+ul li{
+	list-style: none;
+}
+
+.body .content-admin{
+	width: 100%;
+	min-height: 500px;
+}
+
+.body .content-admin .right{
+	width: 10%;
+	border: 1px solid #111111;
+	float: left;
+	height: 100%;
+}
+
+.body .content-admin .left{
+	width: 90%;
+	border: 1px  solid #111111;
+    margin-left: 10%;
+}
+/* left admin */
+.border-ad{
+	border: 1px  solid #111111;
+	 padding: 10px;
+}
+.container-ad{
+	border: 1px  solid #111111;
+   
+}
+
+.title-ad{
+	border: 0px  solid #111111;
+	background-color: #EEEEEE;
+	height: 30px;
+
+}
+
+
+ .number-art,
+ .filter-art{
+ 	float: left;
+ 	border: 1px solid #111111;
+ }
+  .seach-article{
+ 	float: right;
+ 	border: 1px solid #111111;
+ }
+ select{
+ 	height: 30px;
+ }
+ 
+/* end */
+.clears{
+	clear: both;
+}
+
+.body .content-admin .right .menuadmin{
+	border: 1px solid #111111;
+	padding: 3px;
+}
+
+
+.body .container-fluid .login-admin{
+	width: 250px;
+	border: 0px solid #111111;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+
+.body .container-fluid .login-admin form div input{
+ margin-top: 3px;
+
+}
+
+.body .footer{
+  width: 100%;
+  min-width: 260px;
+  border: 1px solid #111111;
+  
+    padding: 10px;
+    background-color: #111111;
+}
+.body .footer .title-footer div{
+  color: #FFFFFF;
+
+}
+
+ @media all and (min-width: 800px){ 
+   .list-menu-art{
+ 	margin-left: 40%;
+ }
+   ul.menu-number{
+ 	list-style: none;
+ }
+ ul.menu-number li{ 	
+ 	display: inline;
+ 	border: 1px solid #111111;
+ 	padding: 5px 10px 5px 10px;
+ }
+   .list-menu-art-mobile{
+   	 display: none;
+   }
+
+   /* article */
+ .list-article .title th{
+  border: 1px solid #111111;
+  padding: 5px;
+ } 
+ th.title-art{
+ 	width: 35%;
+ } 
+  th.date-art{
+ 	width: 10%;
+ }
+  th.id-art{
+ 	width: 7%;
+ }
+  th.user-art{
+ 	width: 13%;
+ }
+ th.statis-post-art{
+ 	width: 5%;
+ }
+ th.statis-cmt-art{
+ 	width: 5%;
+ }
+ th.url-art{
+ 	width: 20%;
+ }
+  th.num-comment-art{
+ 	width: 5%;
+ }
+ .but-mobile{
+ 	display: none;
+ }
+ tr td.name-article{border: 1px solid #111111;}
+ tr td.date-article{border: 1px solid #111111;}
+ tr td.id-article{border: 1px solid #111111;}
+ tr td.user-article{border: 1px solid #111111;}
+ tr td.statis-post-article{border: 1px solid #111111;}
+ tr td.statis-cmt-article{border: 1px solid #111111;}
+ tr td.url-article{border: 1px solid #111111;}
+ tr td.num-comment-article{border: 1px solid #111111;}
+
+ 
+   /* end article */
+}
+
+@media all and (min-width: 480px) and (max-width: 800px){ 
+   .seach-article{
+     display: none;
+    }
+   .list-menu-art{
+ 	text-align: center;
+   }
+   .filter-art{
+    display: none;
+   }
+    ul.menu-number{   
+ 	list-style: none;
+   }
+   ul.menu-number li{ 	
+ 	display: inline;
+ 	border: 1px solid #111111;
+ 	padding: 5px 10px 5px 10px;
+ }	
+    .list-menu-art-mobile{
+   	 display: none;
+   }
+     /* article */
+     .list-article .title th.title-art{
+	  width: 100%;
+	  border: 0px solid #111111;
+      padding: 5px;
+	 } 
+	 .title-article{
+	 	 border: 1px solid #111111;
+	 	 padding: 10px;
+	 	 height: 3.6em;
+	 }
+    .list-article .title th.date-art, .date-article{ 
+	  position: absolute;
+	  display: none;
+	 }
+	 .list-article .title th.id-art, .id-article{
+	  position: absolute;
+	  display: none;
+	 }
+	 .list-article .title th.user-art, .user-article{
+	  position: absolute;
+	  display: none;
+	 }
+	 .list-article .title th.statis-post-art, .statis-post-article{
+	  position: absolute;
+	  display: none;
+	 }
+	 .list-article .title th.statis-cmt-art, .statis-cmt-article{
+	  position: absolute;
+	  display: none;
+	 } 	
+    .list-article .title th.url-art, .url-article{
+	  position: absolute;
+	  display: none;
+	 } 
+	 .list-article .title th.num-comment-art, .num-comment-article{
+	  position: absolute;
+	  display: none;
+	 } 
+    .but-mobile a:after {
+         content:'\25BC';right:5px;text-shadow:1px 1px 1px gray; 
+      }
+     /* end article */
+    
+}
+
+@media all and (max-width: 479px){  
+   .seach-article{
+     display: none;
+    }
+   .list-menu-art{
+ 	 display: none;
+   }
+    .list-menu-art-mobile{
+   	 text-align: center;
+   }
+   .filter-art{
+    display: none;
+   }
+    ul.menu-number{
+   
+ 	list-style: none;
+ 	}
+  
+   ul.menu-number li{ 	
+ 	display: inline;
+ 	border: 1px solid #111111;
+ 	padding: 5px 10px 5px 10px;
+ }	
+}

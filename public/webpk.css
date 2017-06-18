@@ -1,0 +1,3663 @@
+
+@media all and (min-width: 800px){ 
+
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	min-width: 1000px;
+
+}
+
+.content .page{
+  border: 1px solid #111111;
+}
+
+.arrowsidemenu{
+  display: none;
+}
+.menutable{
+  display: none;
+}
+
+.body{
+  display: block;   // phai co :)) ;
+}
+
+.body .image-cover img{
+  width:100%;
+  min-height: 400px;
+  height: 500px; 
+  
+  /*transform: scale(1, 1);  // 3 lenh scale tam hinh
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);*/
+
+  min-width: 1000px; 
+}
+
+.body .registers {
+
+  width: 100%;
+  min-width: 1000px;
+ border: 0px solid #111111;
+ 
+
+}
+.body .registers .logo-company{
+ margin-left: 30px;
+
+}
+
+.body .registers .logo-company .image-logo{
+ height:70px; 
+ width:170px;
+}
+
+.body .registers .search-box{
+   border: 0px solid #111111;
+   float: right;
+}
+.body .registers .search{
+
+ margin-top: 15px;
+ border: 0px solid #111111;
+
+} 
+.body .registers .search .text{
+ border-radius: 3px;
+} 
+.body .registers .search .search-go{
+ border-radius: 10px;
+ width: 30px;
+ height: 30px;
+ background: url(./image/search-icon.png) no-repeat center;
+
+}
+.body .registers .box-info{
+ float: right;
+}
+
+
+
+
+.body .registers .box-info .box-user .user:hover{
+  font-size: inherit;
+    padding: 10px 0px 5px 0px;
+  background-color: #6699CC;
+ 
+}
+.body .registers .box-info .box-user:hover .profile{
+  display: block;
+  cursor: pointer;
+
+  width: 160px;
+  float: right;
+ 
+  padding: 5px;
+
+}
+.body .registers .box-info .box-user .profile div span{
+  padding-right: 5px;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-profile:hover {
+  background-color: #339933;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-option:hover {
+  background-color: #339933;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-logout:hover {
+  background-color: #339933;
+  border-bottom-left-radius: 35%;
+}
+
+.body .registers .box-info .box-login:hover{
+  padding: 10px 0px 5px 10px;
+  background-color: #6699CC;
+  
+
+}
+.body .registers .box-info .box-login .user:hover{
+  font-size: inherit;
+  background-color: #111111;
+
+}
+.body .registers .box-info .box-login:hover .profile{
+  display: block;
+  cursor: pointer;
+  min-width: 150px;
+  float: right;
+  padding: 5px;
+}
+
+
+.body .registers .box-info .profile{
+	display: none;	
+    position: absolute;
+	cursor: auto;
+	border: 0px solid #111111;
+	background-color: #F8F8FF;
+    margin-top: 0px;
+    border-bottom-left-radius: 25%;
+
+   width: 150px;
+   margin-left: -28px;
+}
+.body .registers .box-info .profile div{
+ border: 0px solid #111111;
+ font-weight: bolder;
+ margin-top: 0px;
+ padding-left: 3px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.body .registers .box-info .profile div.pro-bg-user:hover{
+ background-color: #339933;
+}
+.body .registers .box-info .profile div.pro-bg-doctor:hover{
+ background-color: #339933;
+ border-bottom-left-radius: 25%; 
+ 
+
+
+}
+.body .registers .box-info .profile div:hover a{
+ color: #FFFFFF; 
+}
+.body .menu{
+	background-color: #3399CC;
+    border: 0px solid #111111;
+    height: 40px;
+     min-width: 1000px;
+}
+
+.menu ul{
+  min-width: 1000px;
+  display: inline;
+  border: 0px solid #111111;
+  position: relative;
+  top: 10px;
+}
+
+ul li{
+list-style: none;
+}
+
+.body .menu .menudesk ul a{
+  color: #FFFFFF;
+}
+
+.body .menu .menudesk ul .icon-home-page:after{
+ content:'';text-shadow:1px 1px 1px gray;
+}
+.body .menu .menudesk ul .icon-guide:after{
+ content:'';text-shadow:1px 1px 1px gray;
+}
+.body .menu ul li{
+	list-style: none;
+	display: inline;  
+    border: 0px solid #330099;
+     padding: 10px;
+     min-width: 1000px;
+}
+
+.body .menu ul li.menu-home-page:hover{
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #6699FF;
+  font-weight: bolder;
+}
+
+.body .menu .menudesk ul li:hover a{
+color: #111111;
+text-decoration: none;
+}
+
+.body .menu ul li:hover .trang-chu-block{
+  display: block;
+  cursor: pointer;
+}
+
+.body .menu ul li .trang-chu-block{
+  position: absolute;
+  display: none;
+  cursor: auto;
+  border: 1px solid #FFFFFF;
+  margin-top: 9px;
+  background-color:#FFFFFF;
+  margin-left: 40px; 
+  color: #111111;
+}
+.body .menu ul li:hover .hd-sudung-block{
+  display: block;
+  cursor: pointer;
+}
+
+.body .menu ul li .hd-sudung-block{
+  position: absolute;
+  display: none;
+  cursor: auto;
+  border: 1px solid #FFFFFF;
+  margin-top: 10px;
+  background-color:#FFFFFF;
+  margin-left: 62.2%; 
+   
+  width: 70%;
+  color: #111111;
+  z-index: 1;
+  border-bottom-right-radius: 70px; 
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-left{
+  
+  border: 0px solid #111111;
+
+  margin: 0;
+  padding: 0;
+   
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-left{
+ width:30%; 
+ float: left;
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-left .top-hd-sudung div{   
+  border: 0px solid #111111;
+  padding: 15px 5px 15px 5px;
+
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-left .top-hd-sudung .content-hd-createclinic:hover{   
+  border: 0px solid #111111;
+  padding: 15px 5px 15px 5px;
+  background-color: #6699FF;
+  color: #FFFFFF;
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-left .top-hd-sudung .content-hd-staffclinic:hover{   
+  border: 0px solid #111111;
+  padding: 15px 5px 15px 5px;
+  background-color: #6699FF;
+  color: #FFFFFF;
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-left .top-hd-sudung .content-hd-patientclinic:hover{   
+  border: 0px solid #111111;
+  padding: 15px 5px 15px 5px;
+  background-color: #6699FF;
+  color: #FFFFFF;
+}
+
+.body .menu ul li .hd-sudung-block .hd-sudung-block-right{
+ width:70%; 
+ float: right;
+}
+.body .menu ul li .hd-sudung-block .hd-sudung-block-right .descript-top-hd{
+
+}
+.content-hd-createclinic:hover .menu-hd-create-clinic{   
+  display: block;
+  cursor: pointer;
+}
+ .menu-hd-create-clinic{
+ border: 1px solid #111111;
+ background:url(./image/create-clinic.png) no-repeat center;
+ border-bottom-right-radius: 40px; 
+ position: absolute;
+ margin-left: 29%;
+ width: 70%;
+ height: 100%;
+ margin-top: -7%;
+ display: none;
+ cursor: auto;
+}
+.content-hd-staffclinic:hover .menu-hd-employer-clinic{   
+  display: block;
+  cursor: pointer;
+}
+ .menu-hd-employer-clinic{
+ border: 1px solid #111111;
+ background:url(./image/staff-clinic.png) no-repeat center;
+ border-bottom-right-radius: 40px; 
+ position: absolute;
+ margin-left: 29%;
+ width: 70%;
+ height: 100%;
+ margin-top: -21%;
+ display: none;
+ cursor: auto;
+ bor
+}
+.content-hd-patientclinic:hover .menu-hd-patient-clinic{   
+  display: block;
+  cursor: pointer;
+}
+ .menu-hd-patient-clinic{
+ border: 1px solid #111111;
+ background:url(./image/patient-clinic.png) no-repeat center;
+ position: absolute;
+ margin-left: 29%;
+ width: 70%;
+ height: 100%;
+ margin-top: -31.2%;
+ display: none;
+ cursor: auto;
+}
+
+.body .image-cover{
+
+}
+
+
+.body .titlepage{
+  position: absolute;
+  margin-left: 15%;
+
+  margin-top: 90px;
+}
+.body .titlepage .advert-clinic{
+ width: 970px;
+ border: 0px solid #111111;
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ color: #336699;
+ font-weight: bold;
+ font-size: 20px;
+ color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.body .titlepage .advert-clinic .staff-hospital{
+ 
+}	
+/*.body .titlepage .staff-hospital .login-doctor{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 150px;
+}*/
+
+.body .titlepage .advert-clinic .staff-hospital .register-website{
+  border: 3px solid #009966;
+  border-radius: 15px;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #009966;
+  text-align: center;
+  margin-top: 3px;
+  min-width: 400px;
+  height: 70px;
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+
+}
+.body .titlepage .advert-clinic .staff-hospital .register-website:hover{
+  border: 3px solid #FF9900;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FF9900;
+  background-color: #336666;
+  text-align: center;
+  margin-top: 3px;
+  min-width: 400px;
+  height: 70px;
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+}
+.body .titlepage .titlepage-guide .staff-hospital{
+  border: 0px solid #111111;
+}
+.body .titlepage .titlepage-guide .staff-hospital a{
+  text-decoration: none;   
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-one{
+  height: 150px;
+  border: 1px solid #99CC66;
+  width: 190px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;  
+  float: left;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-one span.title{
+ padding: 5px 5px 5px 5px;
+ text-shadow: 2px 2px 4px #000000;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-one .register-calendar-examination{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 13px;
+  width: 190px;
+  height: 60px;  
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-two{
+  height: 150px;
+  border: 1px solid #99CC66;
+  width: 190px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;  
+  float: left;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-two span.title{
+ padding: 5px 5px 5px 5px;
+ text-shadow: 2px 2px 4px #000000;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-two .register-clinic{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 13px;
+  width: 190px;
+  height: 60px;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-three{
+  height: 150px;
+  border: 1px solid #99CC66;
+  width: 190px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;  
+  float: left;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-three span.title{
+ padding: 5px 5px 5px 5px;
+ text-shadow: 2px 2px 4px #000000;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-three .register-staff-clinic{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 13px;
+   width: 190px;
+  height: 60px;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-four{
+  height: 150px;
+  border: 1px solid #99CC66;
+  width: 190px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;  
+  float: left;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-four span.title{
+ padding: 5px 5px 5px 5px;
+ text-shadow: 2px 2px 4px #000000;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-four .reference-service{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 13px;
+   width: 190px;
+  height: 60px;
+}
+/*.body .titlepage .staff-hospital .login-doctor:hover, .login-staff:hover{
+	color: #99CC66;
+	background-color: #FFFFFF;
+	}*/
+  .body .titlepage .titlepage-guide .staff-hospital .register-calendar-examination:hover{
+  color: #99CC66;
+  background-color: #5cb85c;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .register-clinic:hover{
+  color: #99CC66;
+  background-color: #5cb85c;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .register-staff-clinic:hover{
+  color: #99CC66;
+  background-color: #5cb85c;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .reference-service:hover{
+  color: #99CC66;
+  background-color: #5cb85c;
+  }
+/*.body .titlepage .staff-hospital .login-staff{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+   width: 150px;
+  height: 70px;
+}*/
+
+
+/*.body .titlepage .staff-hospital .login-staff:hover{
+	color: #99CC66;
+	background-color: #FFFFFF;
+	}*/
+
+.login-hospital{
+	position: fixed;
+    top: 0px;
+	left: 0px;
+	width:100%;
+	height:100%;
+	z-index:0; 
+	opacity: 0.1s;
+}  
+
+.body .login-hospital .content-login-doctor{
+    width: 500px;
+    border: 0px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    color: #111111;
+    position: relative;
+}  
+.body .login-hospital .content-login-doctor .image{
+  text-align: center;
+}
+.body .login-hospital .content-login-doctor .title{
+  text-align: center;
+}
+.body .login-hospital .content-login-doctor .form-login{
+  width: 297px;
+  border: 0px solid #111111;
+  margin-right: auto;
+  margin-left: auto;
+}
+.body .login-hospital .content-login-doctor .form-login .controls{
+	 margin-top: 3px;
+}
+.body .login-hospital .content-login-doctor .form-login .controls-submit{
+	 text-align: center;
+	 margin-top: 5px;
+}
+.body .login-hospital .content-login-doctor .form-login .controls .maphongkham{
+  float: right;
+
+}
+.body .login-hospital .content-login-doctor .form-login .controls .email{
+  float: right;
+}
+.body .login-hospital .content-login-doctor .form-login .controls .password{
+    float: right;
+  }
+.body .login-hospital .content-login-doctor .form-login .controls .select-work{
+  float: right;
+}
+
+
+.body .content{
+
+	width: 1000px;
+	min-width: 1000px;
+	border: 0px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -180px;
+    background-color: #FFFFFF;
+    min-height: 500px;
+
+}
+
+.body .content .page{
+	padding: 15px;
+	padding-top: 10px;
+
+}
+
+.body .content .page .login{
+  border: 0px solid #111111;
+	width: 310;
+	margin-left: auto;
+	margin-right: auto;
+}
+.body .content .page .login .image-login-user img{
+  width: 40%;
+  height: 40%;
+}
+.body .content .page .login .title-login{
+  font-style: normal;
+  font-family: fantasy;
+}
+.body .content .page .login .controls{
+ margin-top: 3px;
+}
+.body .content .page .login .form-login .controls .email{
+border-radius: 3px;
+height: 30px;
+}
+.body .content .page .login .form-login .controls .password{
+border-radius: 3px;
+height: 30px;
+}
+.body .content .page .login .controls-submit{
+ margin-top: 10px;
+ text-align: center;
+}
+.body .content .page .login .form-login .controls-submit input.login-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .login .form-login .controls-submit input.reset-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.body .content .page .signup{
+	border: 0px solid #111111;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.body .content .page .image-sign-up img{
+ height: 40%;
+ width: 40%;
+}
+.body .content .page .signup .form-sign lable{
+
+}
+.body .content .page .signup .form-sign .controls .fullname, .email, .password, .cmtnd, .date-birth, .numeric, .street, .county, .select-town{
+ float: right;
+}
+.body .content .page .signup .form-sign .controls .email{
+border-radius: 20;
+}
+.body .content .page .signup .form-sign .controls .image{
+   float: right;
+}
+
+.body .content .page .signup .form-sign .controls .date-birth{
+  width: 175px;
+}
+
+.body .content .page .signup .form-sign .controls, .controls-submit{
+ margin-top: 3px;
+}
+.body .content .page .signup .form-sign .controls .fullname{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .email {
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .password{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .cmtnd{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .date-birth{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .numeric{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .street{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .county{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls select{
+  border-radius: 3px;
+  height: 30px;
+
+}
+
+.body .content .page .signup .form-sign .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+.body .content .page .signup .form-sign .controls-submit input.register-user{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .signup .form-sign .controls-submit input.reset-register{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+
+.body .content .page .signup .title-sign{
+	text-align: center;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+.body .content .page .content-clinics{
+  border: 0px solid #111111;
+ 
+}
+.body .content .page .content-clinics span.title{
+ text-align: left;
+ font-size: 30px;
+ font-weight: bold;
+ font-family: monospace;
+ background-color: #669999;
+ border-bottom-right-radius: 25px;
+ padding: 15px 10px 10px 15px;
+ 
+}
+.body .content .page .content-clinics .ti-clinic{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.body .content .page .content-clinics .ti-clinic div .statistic{
+  background-color: rgb(101, 165, 209);
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+}
+.body .content .page .content-clinics .ti-clinic div a{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.body .content .page .content-clinics .ti-clinic div a span{
+  margin-left: 10px;
+}
+.body .content .page .content-clinics .ti-clinic div.children-clinic .content-children-clinic{
+
+}
+.content-clinic-forum div .right-clinic{
+ width: 77%;
+ float: left;  
+ border-bottom: 1px solid #111111;
+ min-height:100px; 
+ padding: 10px;
+}
+.content-clinic-forum div .left-clinic{
+ width: 22%;
+  float: right;
+   border: 0px solid #111111;
+    min-height:100px;
+    padding-top: 15px;
+}
+.content-clinic-forum div .left-clinic .left-clinic-button{
+
+ float: left;
+ border: 0px solid #111111;
+}
+.content-clinic-forum div .left-clinic .right-clinic-button{
+
+ float: right;
+ border: 0px solid #111111;
+}
+.body .content .tieude{
+	font-size: 30px;
+	font-weight: 100;
+	color: #2E8B57;
+}
+.body .content .content-webpk{
+ margin-top: 30px;
+}
+.body .content .content-webpk .gioithieu{
+  width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.body .content .content-webpk .gioithieu .title{
+ font-size: 25px;
+ text-align: center;
+}
+.body .content .content-webpk .gioithieu .title-mini{
+
+ text-align: center;
+}
+/* code */
+.body .content .content-webpk .content-webpk-intro{
+ border: 0px solid #111111;
+ margin-top: 10px;
+
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right{
+ border: 1px solid #CFCFCF;
+ float: left;
+ width: 70%;
+
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient{
+ border: 0px solid #111111;
+ margin-top: 10px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient .find-a-dortor{
+ border: 0px solid #111111;
+ float: left;
+ width: 33.3%;
+ text-align: center;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient .find-a-dortor input{
+ margin-bottom: 10px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient .refer-a-patient{
+ border: 0px solid #111111;
+ float: left;
+ width: 33.3%;
+ text-align: center;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient .refer-a-patient input{
+ margin-bottom: 10px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient .message-for-admin{
+ border: 0px solid #111111;
+ float: left;
+ width: 33.3%;
+ text-align: center;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-doctor-patient .message-for-admin input{
+ margin-bottom: 10px;
+
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-advisory-sick{
+ margin-top: 15px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-advisory-sick .title{
+ font-family: sans-serif;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 17px;
+ font-variant: inherit;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-advisory-sick .find-advisory-sick-right{
+border: 0px solid #111111;
+float: left;
+width: 55%;
+padding: 10px;
+}
+
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-advisory-sick .find-advisory-sick-right table tr td{
+border: 0px solid #111111;
+padding: 10px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-advisory-sick .find-advisory-sick-right table tr td a{
+ color: #3399CC;
+ font-weight: bold;
+ }
+.body .content .content-webpk .content-webpk-intro .cw-intro-right .find-advisory-sick .find-advisory-sick-left{
+  border: 0px solid #111111;
+  float: right;
+  width: 44%;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-left{
+ border: 1px solid #CFCFCF;
+ float: right;
+ width: 28%;  
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-left .service-online-user{
+  padding: 5px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-left .service-online-user .title{
+ font-family: sans-serif;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 15px;
+ font-variant: inherit;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-left .service-online-user table tr td{
+ padding: 5px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-left .service-online-user table tr td a{
+ color: #3399CC;
+ }
+.body .content .content-webpk .content-webpk-intro .cw-intro-left .service-online-doctor{
+ padding: 5px;
+}
+.body .content .content-webpk .content-webpk-intro .cw-intro-left .service-online-doctor .title{
+ font-family: sans-serif;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 15px;
+ font-variant: inherit;
+}
+/* content */
+.body .content .content-webpk .content-webpk-content{
+  border: 0px solid #111111;
+  margin-top: 10px;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-one{
+  border: 0px solid #111111;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-one .content-intro-one-right{
+  width: 50%;
+  border: 0px solid #111111;
+  float: left;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-one .content-intro-one-right img{
+  
+  width: 100%;  
+  padding: 80px;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-one .content-intro-one-left{
+  width: 50%;
+  border: 0px solid #111111;
+  padding: 80px;
+  float: right;
+
+}
+.body .content .content-webpk .content-webpk-content .content-intro-one .content-intro-one-left span.title{
+ font-family: sans-serif;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 20px;
+ font-variant: inherit;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-two{
+  border: 0px solid #111111;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-two .content-intro-two-right{
+  width: 50%;
+  border: 0px solid #111111;
+  padding: 80px;
+  float: left;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-two .content-intro-two-right span.title{
+ font-family: sans-serif;
+ font-weight: bold;
+ font-style: inherit;
+ font-size: 20px;
+ font-variant: inherit;
+}
+.body .content .content-webpk .content-webpk-content .content-intro-two .content-intro-two-left{
+  width: 50%;
+  border: 0px solid #111111;
+  float: right;  
+}
+.body .content .content-webpk .content-webpk-content .content-intro-two .content-intro-two-left img{
+  
+  width: 100%;  
+  padding: 80px;
+}
+
+/* end code */
+.body .content .content-webpk .content-webpk-info{
+margin-top: 50px;
+}
+.body .content .content-webpk .content-webpk-info .row-bh{
+  width: 100%;
+  border: 0px solid #111111;
+   
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4{
+ border: 0px solid #111111;
+ width: 33.33%;
+ float: left;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 15px;
+ padding-right: 15px;
+ text-align: center;
+ min-height: 305px;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col{
+ border: 0px solid #111111; 
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col .img{ 
+ border: 1px solid #111111;
+ padding: 15px;
+ border-radius: 50%;
+ height: 150px;
+ width: 150px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col .img img{ 
+ padding: 13px;
+ width: 100%;
+ height: 100%;
+}  
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-row-one{
+ border: 0px solid #111111; 
+ font-size: 1.4em;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-row-two{
+ border: 0px solid #111111; 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family: monospace, monospace;
+ padding-left: 10px;
+ padding-right: 10px
+}
+
+.bold{
+	font-size: 20px;
+	font-weight: bold;
+	color: #111111;
+}
+
+.body .content .page .profile{
+  border: 1px solid #D3D3D3;
+}
+.body .content .page .profile .profile-left{
+  border: 0px solid #111111;
+  float: left;
+  width: 23%;
+  height: 100%;
+  
+}
+.body .content .page .profile .profile-left .fix:hover .box-fix{
+  display: block;
+  cursor: pointer;
+
+}
+.body .content .page .profile .profile-left .fix .box-fix{
+ display: none;
+ cursor: auto;
+}
+
+.body .content .page .profile .profile-left .image-profile{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.body .content .page .profile .profile-left .image-profile:hover{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.body .content .page .profile .profile-left .image-profile .replay-image{
+ position: absolute;
+ float: inherit;
+ display: none;
+ cursor: auto;
+}
+.body .content .page .profile .profile-left .image-profile:hover .replay-image{
+ position: absolute;
+ float: inherit;
+  display: block;
+  cursor: pointer;
+}
+
+.body .content .page .profile .profile-right{
+  border-left: 1px solid #D3D3D3;
+  float: right;
+  width: 77%;
+  height: 100%;
+  min-height: 500px;
+}
+.step3, .step2, .step1 {
+  border-radius: 50%; 
+  border: 0px solid #111111;
+  width: 30px;
+  height: 30px;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+  text-align:center;
+  font-size: 19px; 
+}
+.body .content .page .profile .profile-right .box-profile-right{
+
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website{
+  
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website .title{
+  
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website .title .title-description{
+ padding: 10px;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .street-border{
+  border-bottom: 1px solid #D3D3D3;
+  position: relative;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website .register-web .form-register-web form .nameroom{
+  width: 60%;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website .register-web .form-register-web form .register-submit{
+   margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website .register-web .form-register-web form .reset-submit{
+   margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step-step1{
+  float: left;
+  width: 130px;
+  border: 0px solid #111111;
+  text-align: center;
+  margin-left: -20%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step-step2{
+  float: left;
+  width: 130px;
+  border: 0px solid #111111;
+ text-align: center;
+ margin-left: 20%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step-step3{
+  float: right;
+  width: 130px;
+  border: 0px solid #111111;
+  text-align: center;
+  margin-right: -20%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .check-box .step .step1{
+  margin-left: 40%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step .step2{
+margin-left: 40%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step .step3{
+margin-left: 40%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .check-box{
+  border: 1 solid #111111;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step{
+    margin-top: -15px;
+    position: absolute;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .login-website{
+  border: 1px solid #111111;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .auth-website{
+  border: 0px solid #111111;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .auth-website .title-three{
+  text-align: center;
+  border: 0px solid #111111;
+  color: #336699;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .title .title-description{
+  padding: 10px;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website{
+  width: 310px;
+  border: 0px solid #111111;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website .controls{
+  margin-top: 3px;
+  border: 0px solid #111111;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website .controls-submit{
+  text-align: center;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website form .login-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website .controls .nameroom{
+   float: right;
+  
+}
+
+.body .content .page .profile .profile-right .box-profile-right .info-register-website .register-web{
+  width: 530px;
+  border: 0px solid #111111;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+.body .content .page .profile .profile-right .box-profile-right .info-individual{
+ margin: 6%;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-individual .info-user{
+ border: 0px solid #111111;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation{
+ margin: 5%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation .label-user-infobasic{
+ border: 0px solid #111111; 
+ width: 100%;
+ padding: 10px;
+ background-color: #f5f5f5;
+ border-radius: 20px;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic{
+  margin: 10px;
+  border: 0px solid #111111;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls{
+ margin: 15px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls dt{
+ width: 30%;
+ float: left;
+ border: 0px solid #111111;
+ text-align: right;
+ padding: 5px;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls dd{
+ width: 50%;
+  float: left;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation .label-user-infoother{
+ border: 0px solid #111111; 
+ width: 100%;
+ padding: 10px;
+ background-color: #f5f5f5;
+ border-radius: 20px;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother{
+  margin: 10px;
+  border: 0px solid #111111;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls{
+ margin: 15px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls dt{
+ width: 30%;
+ float: left;
+ border: 0px solid #111111;
+ text-align: right;
+ padding: 5px;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls dd{
+ width: 50%;
+  float: left;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls select{
+  height: 34px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .controls-submit .register-user{
+margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+
+
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2{
+
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .title .title-description{
+padding: 10px;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 form select{
+ height: 30px;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 form input.colorbackground{
+ height: 30px;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 form .continue-submit{
+margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 .form-regis-step2{
+ border: 0px solid #111111;
+ width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/*  info - staff  */
+.body .content .page .infostaff{
+  width: 100%;
+  border: 1px solid #111111;
+
+}
+.body .content .page .infostaff .title{
+   font-style: unset;
+   border: 0px solid #111111;
+   font-size: 25px;
+   padding: 5px;
+   background-color: #DCDCDC;
+   height: 60px;
+}
+.body .content .page .infostaff .content-infostaff{
+  
+  border: 1px solid #111111;
+
+}
+
+.body .content .page .infostaff .infostaff-left{
+  width: 30%;
+  border: 0px solid #111111;
+  
+  float: left;
+
+}
+.body .content .page .infostaff .infostaff-left .menu-infostaff li{
+  padding: 15px;
+  border: 0px solid #111111;
+ }
+.body .content .page .infostaff .infostaff-right{
+  width: 70%;
+  border: 0px solid #111111;
+   border-left: 1px solid #111111;
+  float: right;
+  
+}
+
+.body .content .page .infostaff .infostaff-right .overview{
+  
+}
+.body .content .page .infostaff .infostaff-right .overview .overview-right{
+  border: 0px solid #111111;
+  width: 65%;
+  float: left;
+}
+.body .content .page .infostaff .infostaff-right .overview .overview-left{
+  border: 0px solid #111111;
+  width: 35%;
+  float: right;
+
+}
+.body .content .page .infostaff .infostaff-right .overview .overview-right .list-overview-right li{
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.body .content .page .infostaff .infostaff-right .overview .overview-left .list-overview-left li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.body .content .page .infostaff .infostaff-right .workandedu{} 
+
+.body .content .page .infostaff .infostaff-right .workandedu .content-workandedu{
+  
+} 
+
+.register-profile{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.reset-profile{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+/*  end info staff  */
+
+.body .footer{
+	width: 100%;
+	min-width: 1000px;
+	border: 1px solid #111111;
+	
+    padding: 10px;
+   background-color: #111111; 
+}
+.body .footer .title-footer{
+	width: 90%;
+	 min-width: 980px;
+   border: 1px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.body .footer .title-footer div{
+  color: #FFFFFF;
+
+}
+.body .footer .title-footer div.social-network{
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+.body .footer .title-footer div a{
+  padding: 5px; 
+   
+}
+
+// admin
+.body .content-admin{
+	width: 100%;
+	min-height: 500px;
+}
+
+.body .content-admin .right{
+	width: 10%;
+	border: 1px solid #111111;
+	float: left;
+	height: 100%;
+}
+
+.body .content-admin .left{
+	width: 90%;
+	border: 1px  solid #111111;
+    margin-left: 10%;
+}
+
+.clears{
+	clear: both;
+}
+
+.body .content-admin .right .menuadmin{
+	border: 1px solid #111111;
+	padding: 3px;
+}
+
+
+.body .content-room-1 .banner{
+	height: 180px;
+	min-height: 180px;
+	border: 1px solid #111111;
+	
+}
+
+.body .content-room-1 .body-content{
+	border: 1px solid #111111;
+	
+}
+
+.body .content-room-1 .body-content .right{
+	border: 1px solid #111111;
+	float: left;
+    width: 81%;
+    min-height: 100px;
+
+}
+.body .content-room-1 .body-content .left{
+	border: 1px solid #111111;
+	float: right;
+	width: 17%;
+	min-height: 100px;
+}
+
+.body .content-room-2 .right{
+	border: 1px solid #111111;
+	float: left;
+	width: 70%;
+	min-height: 100px;
+}
+
+.body .content-room-2 .left{
+	border: 1px solid #111111;
+	float: right;
+	width: 29%;
+	min-height: 100px;
+}
+
+
+.body .content-room-3{
+	border: 1px solid #111111;
+}
+
+.body .body-three .content-room-3{
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.body .content-room-3 .right{
+	
+	width: 30%;
+	min-width: 300px;
+	min-height: 700px;
+	border: 1px solid #111111;
+    float: left;
+}
+
+.body .content-room-3 .left{
+	
+	width: 69%;
+	min-width: 800px;
+	min-height: 700px;
+	float: right;
+	border: 1px solid #111111;
+}
+
+.body .body-three .content-room-3 .left .menu-three{
+	width: 100%;
+    background-color: red;
+    border: 1px solid #111111;
+    height: 40px;
+    
+}
+
+.menu-three ul{
+  min-width: 1000px;
+  display: inline;
+  
+}
+
+.menu-three ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+    border: 0px solid #111111;
+     padding-top: 10px;
+     min-width: 1000px;
+}
+
+.body .login-admin-room{
+  width: 310px;
+}
+
+
+}
+
+
+@media all and (max-width: 479px) {
+  html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFFFF;
+  border: 0px solid #111111;
+}
+.menutable{
+  display: none;
+}
+
+.body{
+  display: block;   // phai co :)) ;
+}
+
+.body .image-cover img{
+ width:100%;
+  min-height:400px;   
+  height: auto;
+}
+
+.clears{
+     clear: both;
+}
+.body .registers{
+ border: 0px solid #111111;
+ width: 100%;
+}
+.body .registers .logo-company{
+
+  margin-left: 0px;
+}
+.body .registers .logo-company .image-logo{
+  height: 65px;
+  width: 39%;
+}
+.body .registers .search-box{
+   border: 0px solid #111111;
+   float: right;
+   width: 60%;
+  
+}
+body .registers .search-box .box-info{
+    border: 0px solid #111111;
+    float: right;
+
+}
+.body .registers .search .text{
+ border-radius: 3px;
+} 
+.body .registers .search .search-go{
+ border-radius: 10px;
+ width: 30px;
+ height: 30px;
+ background: url(./image/search-icon.png) no-repeat center;
+
+}
+
+.body .registers .box-info .box-login:hover{
+  padding: 10px 0px 5px 10px;
+  background-color: #6699CC;
+  
+
+}
+.body .registers .box-info .box-user .user:hover{
+  font-size: inherit;
+   padding: 10px 0px 5px 0px;
+  background-color: #F8F8FF;
+
+}
+.body .registers .box-info .box-user:hover .profile{
+  display: block;
+  cursor: pointer;
+  min-width: 160px;
+  float: right;
+ 
+  padding: 5px;
+  
+  
+}
+.body .registers .box-info .box-user .profile div span{
+  padding-right: 5px;
+}
+
+.body .registers .box-info .box-user .profile div.pro-bg-profile:hover {
+  background-color: #339933;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-option:hover {
+  background-color: #339933;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-logout:hover {
+  background-color: #339933;
+  border-bottom-left-radius: 35%;
+}
+
+.body .registers .search-box .search{
+    border: 0px solid #111111;
+    float: right;
+    margin-top: 10px;
+}
+.body .registers .search-box .search .lable{
+    display: none;
+
+}
+.body .registers .search-box .search .text{
+  width: 70%;
+}
+
+.body .registers .box-info .box-login .user:hover{
+  font-size: inherit;
+  background-color: #111111;
+
+}
+.body .registers .box-info .box-login:hover .profile{
+  display: block;
+  cursor: pointer;
+ 
+  width: 150px;
+  float: right;
+  
+  padding: 5px;
+}
+
+.body .registers .box-info .profile{
+  display: none;  
+    position: absolute;
+  cursor: auto;
+  border: 0px solid #111111;
+  background-color: #F8F8FF;
+    margin-top: 0px;
+    border-bottom-left-radius: 25%;
+  
+   width: 150px;
+   margin-left: -28px;
+}
+.body .registers .box-info .profile div{
+ border: 0px solid #111111;
+ font-weight: bolder;
+ margin-top: 0px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+ padding-left: 3px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.body .registers .box-info .profile div.pro-bg-user:hover{
+ background-color: #339933;
+}
+.body .registers .box-info .profile div.pro-bg-doctor:hover{
+ background-color: #339933;
+ border-bottom-left-radius: 25%; 
+ 
+
+}
+.body .registers .box-info .profile div:hover a{
+ color: #FFFFFF; 
+}
+
+
+
+
+.body .menu{
+  border: 0px solid #111111;
+  background-color: #3399CC;
+}
+ul li{
+list-style: none;
+
+}
+/* Menu */
+ .arrowsidemenu{
+ 
+ }
+ .clearfix {  
+        height: 15px;  
+        width: 100%;  
+        background: #455868;  
+        font-size: 11pt;  
+        font-family: 'PT Sans', Arial, sans-serif;  
+        font-weight: bold;  
+        position: relative;  
+        border-bottom: 1px solid #283744;  
+        
+    }  
+    
+   .clearfix ul {  
+        padding: 0;  
+        margin: 0 auto;  
+        
+        height: 40px;  
+    }  
+
+    .clearfix li {  
+        display: inline;  
+         width: 100%; 
+
+    }  
+
+    .clearfix:before,  
+    .clearfix:after {  
+        content: " ";  
+        display: table;  
+    }  
+    .clearfix:after {  
+        clear: both;  
+    }  
+    .clearfix {  
+       /* *zoom: 1;  */
+    }  
+
+    .clearfix a {  
+        color: #fff;  
+        display: inline-block;  
+        width: 100px;  
+        text-align: center;  
+        text-decoration: none;  
+        line-height: 40px;  
+        text-shadow: 1px 1px 0px #283744;  
+    }  
+
+    .clearfix li a {  
+        border-right: 1px solid #576979;  
+        box-sizing:border-box;  
+        -moz-box-sizing:border-box;  
+        -webkit-box-sizing:border-box;  
+    }  
+    
+    .clearfix li:last-child a {  
+        border-right: 0;  
+    }  
+
+    .clearfix a:hover, nav a:active {  
+        background-color: #8c99a4;  
+    }  
+
+    .clearfix a#pull {  
+    display: none;  
+  }  
+     .clearfix {  
+            border-bottom: 0;  
+        }  
+        .clearfix ul {  
+            display: none;  
+            height: auto;  
+        }  
+        .clearfix a#pull {  
+            display: block;  
+            background-color: #283744;  
+            width: 100%;  
+            position: relative;  
+        }  
+        .clearfix a#pull:after {  
+            content:"";  
+            background: url('nav-icon.png') no-repeat;  
+            width: 30px;  
+            height: 30px;  
+            display: inline-block;  
+            position: absolute;  
+            right: 20px;  
+            top: 10px;  
+        } 
+/* end Menu */
+
+.body .menu .trang-chu-block{
+  display: none;
+}
+.body .titlepage .titlepage-guide{
+  
+  border: 0px solid #111111;
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+
+  color: #FFFFFF;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.body .titlepage{
+  position: absolute;
+ 
+  margin-top: 70px;
+  
+}
+.body .titlepage .advert-clinic{
+ width: 100%;
+
+ border: 0px solid #111111;
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ color: #336699;
+ font-weight: bold;
+ font-size: 20px;
+ color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.body .titlepage .advert-clinic .title-advert{
+ width: 100%;
+ border: 0px solid #111111;
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ color: #336699;
+ font-weight: bold;
+ font-size: 10px;
+ color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+.body .titlepage .advert-clinic .staff-hospital{
+  
+} 
+.body .titlepage .staff-hospital .login-doctor{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 150px;
+}
+
+.body .titlepage .advert-clinic .staff-hospital .register-website{
+  border: 3px solid #FF9900;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #009966;
+  text-align: center;
+  margin-top: 3px;
+  min-width: 100px;
+  height: 70px;
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+}
+.body .titlepage .advert-clinic .staff-hospital .register-website:hover{
+  border: 3px solid #FF9900;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FF9900;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-top: 3px;
+  min-width: 100px;
+  height: 70px;
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+}
+
+.body .titlepage .staff-hospital .register-calendar-examination{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 100%;
+  font-size: 17px;
+}
+.body .titlepage .staff-hospital .login-doctor:hover, .login-staff:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+  .body .titlepage .staff-hospital .register-calendar-examination:hover, .register-clinic:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+  .body .titlepage .staff-hospital .register-clinic:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+  .body .titlepage .staff-hospital .register-staff-clinic:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+.body .titlepage .staff-hospital .login-staff{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 150px;
+}
+.body .titlepage .staff-hospital .register-clinic{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 100%;
+  font-size: 17px;
+}
+.body .titlepage .staff-hospital .register-staff-clinic{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 100%;
+  font-size: 17px;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-four .reference-service{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 100%;
+  font-size: 17px;
+}
+ .body .titlepage .titlepage-guide .staff-hospital .button-one span.title{
+  display: none;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .button-two span.title{
+  display: none;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .button-three span.title{
+  display: none;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .button-four span.title{
+  display: none;
+  }
+.body .titlepage .staff-hospital .login-staff:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+
+.login-hospital{
+  position: fixed;
+    top: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:0; 
+  opacity: 0.1s;
+}  
+
+.body .login-hospital .content-login-doctor{
+    width: 100%;
+    border: 0px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    color: #111111;
+    position: relative;
+}  
+.body .login-hospital .content-login-doctor .image{
+  text-align: center;
+}
+.body .login-hospital .content-login-doctor .title{
+  text-align: center;
+}
+.body .login-hospital .content-login-doctor .form-login{
+  width: 295px;
+  border: 0px solid #111111;
+  margin-right: auto;
+  margin-left: auto;
+}
+.body .login-hospital .content-login-doctor .form-login .controls{
+   margin-top: 3px;
+}
+.body .login-hospital .content-login-doctor .form-login .controls-submit{
+   text-align: center;
+   margin-top: 5px;
+}
+.body .login-hospital .content-login-doctor .form-login .controls .maphongkham{
+  float: right;
+
+}
+.body .login-hospital .content-login-doctor .form-login .controls .email{
+  float: right;
+}
+.body .login-hospital .content-login-doctor .form-login .controls .password{
+    float: right;
+  }
+.body .login-hospital .content-login-doctor .form-login .controls .select-work{
+  float: right;
+}
+
+.login-hospital{
+  position: fixed;
+    top: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:0; 
+  opacity: 0.9;
+}  
+.body .content .page{
+  padding: 15px;
+  padding-top: 10px;
+}
+.body .content .page .tieude{
+  font-size: 30px;
+  font-weight: 100;
+  color: #2E8B57;
+}
+.body .content .content-webpk{
+ margin-top: 30px;
+}
+.body .content .content-webpk .gioithieu{
+  width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.body .content .content-webpk .gioithieu .title{
+ font-size: 25px;
+ text-align: center;
+}
+.body .content .content-webpk .gioithieu .title-mini{
+
+ text-align: center;
+}
+.body .content .content-webpk .content-webpk-info{
+margin-top: 50px;
+}
+.body .content .page .content-webpk .content-webpk-info .row-bh{
+  width: 100%;
+   border: 0px solid #111111;
+   
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4{
+ border: 0px solid #111111;
+ width: 100%;
+ float: left;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 5px;
+ padding-right: 5px;
+ text-align: center;
+ min-height: 305px;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col{
+ border: 0px solid #111111; 
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col .img{ 
+ border: 1px solid #111111;
+ padding: 15px;
+ border-radius: 50%;
+ height: 150px;
+ width: 150px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col .img img{ 
+ padding: 13px;
+ width: 100%;
+ height: 100%;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-row-one{
+ border: 0px solid #111111; 
+ font-size: 1.4em;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-row-two{
+ border: 0px solid #111111; 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family: monospace, monospace;
+ padding-left: 10px;
+ padding-right: 10px
+}
+
+.body .content .page .login{
+  border: 0px solid #111111;
+  width: 280;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body .content .page .login .form-login .controls-submit input.login-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 60px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .login .form-login .controls-submit input.reset-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 60px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .login .form-login .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+.body .content .page .signup{
+  border: 0px solid #111111;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body .content .page .image-sign-up img{
+ height: 40%;
+ width: 40%;
+}
+.body .content .page .signup .form-sign lable{
+
+}
+.body .content .page .signup .form-sign .controls .fullname, .email, .password, .cmtnd, .date-birth, .numeric, .street, .county, .select-town{
+ float: right;
+}
+.body .content .page .signup .form-sign .controls .email{
+border-radius: 20;
+}
+.body .content .page .signup .form-sign .controls .image{
+   float: right;
+}
+
+.body .content .page .signup .form-sign .controls .date-birth{
+  width: 175px;
+}
+
+.body .content .page .signup .form-sign .controls, .controls-submit{
+ margin-top: 3px;
+}
+.body .content .page .signup .form-sign .controls .fullname{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .email {
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .password{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .cmtnd{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .date-birth{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .numeric{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .street{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .county{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls select{
+  border-radius: 3px;
+  height: 30px;
+
+}
+
+.body .content .page .signup .form-sign .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+.body .content .page .signup .form-sign .controls-submit input.register-user{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .signup .form-sign .controls-submit input.reset-register{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+
+.body .content .page .signup .title-sign{
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.body .content .page .signup .form-sign .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+
+.body .content .page .profile{
+  border: 0px solid #111111;
+}
+.body .content .page .profile .profile-left{
+  border: 0px solid #111111;
+  width: 100%;
+  height: 100%;
+  
+}
+.body .content .page .profile .profile-left .image-profile{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.body .content .page .profile .profile-left .image-profile:hover{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.body .content .page .profile .profile-left .image-profile .replay-image{
+ position: absolute;
+ float: inherit;
+ display: none;
+ cursor: auto;
+}
+.body .content .page .profile .profile-left .image-profile:hover .replay-image{
+ position: absolute;
+ float: inherit;
+  display: block;
+  cursor: pointer;
+}
+.body .content .page .profile .profile-left .image-profile {
+
+}
+
+.body .content .page .profile .profile-right{
+  border: 1px solid #111111;
+  float: right;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.body .content .page .profile .profile-right .box-profile-right .check-box{
+  display: none;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation{
+ margin: 5%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation .label-user-infobasic{
+ border: 0px solid #111111; 
+ width: 100%;
+ padding: 10px;
+ background-color: #f5f5f5;
+ border-radius: 20px;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic{
+  margin: 10px;
+  border: 0px solid #111111;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls{
+ margin: 15px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls dt{
+ width: 30%;
+ float: left;
+ border: 0px solid #111111;
+ text-align: right;
+ padding: 5px;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls dd{
+ width: 70%;
+  float: left;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation .label-user-infoother{
+ border: 0px solid #111111; 
+ width: 100%;
+ padding: 10px;
+ background-color: #f5f5f5;
+ border-radius: 20px;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother{
+  margin: 10px;
+  border: 0px solid #111111;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls{
+ margin: 15px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls dt{
+ width: 30%;
+ float: left;
+ border: 0px solid #111111;
+ text-align: right;
+ padding: 5px;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls dd{
+ width: 70%;
+  float: left;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls select{
+  height: 34px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .controls-submit .register-user{
+margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 select{
+  width: 50%;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 textarea{
+  width: 99%;
+
+}
+
+
+.body .footer{
+  width: 100%;
+  min-width: 260px;
+  border: 1px solid #111111;
+  
+    padding: 10px;
+    background-color: #111111;
+}
+.body .footer .title-footer div{
+  color: #FFFFFF;
+
+}
+.body .footer .title-footer div.social-network{
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+.body .footer .title-footer{
+  width: 95%;
+   min-width: 260px;
+   border: 1px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.body .footer .title-footer ul li{
+ margin-left: -20px;
+}
+.body .footer .title-footer div a{
+  padding: 2px; 
+   
+}
+
+.body .menu .menudesk{
+ display: none;
+}
+/*
+.arrowsidemenu{
+            width: 100%; 
+            border-style: solid solid none solid;
+            border-color: #FFFFFF;
+           
+            border: 0px solid #FFFFFF;
+}
+ 
+.arrowsidemenu div a{ 
+            font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+            display: block;
+            background: transparent url(http://2.bp.blogspot.com/-wkuiQAWG1BE/T5LscWBM8zI/AAAAAAAABN8/g_AxPSwrDH8/s1600/arrowgreen-namkna-blogspot-com.gif) 100% 0;
+            height: 32px; 
+            padding: 4px 4px 4px 0px;
+            line-height: 32px; 
+            text-decoration: none;
+}
+         
+.arrowsidemenu div a:link, .arrowsidemenu div a:visited{
+            color: #26370A;
+}
+
+.arrowsidemenu div a:hover{
+            background-position: 100% -32px;
+}
+
+.arrowsidemenu div.unselected a{ 
+            color: #6F3700;
+}
+
+           
+.arrowsidemenu div.selected a{ 
+            color: blue;
+            background-position: 100% -64px !important;
+}
+
+.arrowsidemenu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+}
+
+.arrowsidemenu ul li{
+            border-bottom: 0px solid #a1c67b;
+}
+
+
+.arrowsidemenu ul li a{ 
+            display: block;
+            font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: black;
+            padding: 5px 0;
+            padding-left: 10px;
+            border-left: 0px double #a1c67b;
+}
+
+.arrowsidemenu ul li a:hover{
+            background: #d5e5c1;
+}
+
+
+div.sdmenu {
+ width: 100%;
+ font-family: Arial, sans-serif;
+ font-size: 12px;
+ padding-bottom: 1px;
+ border:0px solid #FFFFFF;
+}
+div.sdmenu div {
+ background: url(./image/icon-menu.png) no-repeat right;
+ overflow: hidden;
+ background-color: #3399CC;
+
+}
+
+
+div.sdmenu div.collapsed {
+ height: 30px;
+}
+
+div.sdmenu div span {
+ display: block;
+ height: 30px;
+ font-weight: bold;
+ color: white;
+}
+
+div.sdmenu div a {
+ padding: 8px 30px;
+ background: #eee;
+ display: block;
+ border-bottom: 0px solid #ddd;
+ color: #066;
+}
+
+div.sdmenu div a:hover {
+ background-color: #3399CC;
+ color: #fff;
+ text-decoration: none;
+}
+*/
+
+
+}
+
+
+@media all and (min-width: 480px) and (max-width: 800px){ 
+ html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFFFF;
+  border: 0px solid #111111;
+}
+
+.arrowsidemenu{
+  display: none;
+}
+.menudesk{
+ display: none;
+}
+
+.body{
+  display: block;   // phai co :)) ;
+}
+.body .image-cover img{
+ width:100%;
+  height:450px;   
+ min-width: 260px;
+
+}
+
+.clears{
+     clear: both;
+}
+.body .registers{
+ border: 0px solid #111111;
+ width: 100%;
+}
+.body .registers .logo-company{
+
+  margin-left: 0px;
+}
+.body .registers .logo-company .image-logo{
+  height: 65px;
+  width: 39%;
+}
+.body .registers .search-box{
+   border: 0px solid #111111;
+   float: right;
+   width: 60%;
+  
+}
+body .registers .search-box .box-info{
+    border: 0px solid #111111;
+    float: right;
+
+}
+.body .registers .search .text{
+ border-radius: 3px;
+} 
+.body .registers .search .search-go{
+ border-radius: 10px;
+ width: 30px;
+ height: 30px;
+ background: url(./image/search-icon.png) no-repeat center;
+
+}
+
+.body .registers .box-info .box-login:hover{
+  padding: 10px 0px 5px 10px;
+  background-color: #6699CC;
+  
+
+}
+.body .registers .box-info .box-user .user:hover{
+  font-size: inherit;
+   padding: 10px 0px 5px 0px;
+  background-color: #F8F8FF;
+
+}
+.body .registers .box-info .box-user:hover .profile{
+  display: block;
+  cursor: pointer;
+  min-width: 160px;
+  float: right;
+  padding: 5px;
+
+}
+.body .registers .box-info .box-user .profile div span{
+  padding-right: 5px;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-profile:hover {
+  background-color: #339933;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-option:hover {
+  background-color: #339933;
+}
+.body .registers .box-info .box-user .profile div.pro-bg-logout:hover {
+  background-color: #339933;
+  border-bottom-left-radius: 35%;
+}
+
+.body .registers .search-box .search{
+    border: 0px solid #111111;
+    float: right;
+    margin-top: 10px;
+}
+.body .registers .search-box .search .lable{
+    display: none;
+}
+.body .registers .search-box .search .text{
+  width: 70%;
+}
+
+.body .registers .box-info .box-login .user:hover{
+  font-size: inherit;
+  background-color: #111111;
+
+}
+.body .registers .box-info .box-login:hover .profile{
+  display: block;
+  cursor: pointer;
+ 
+  width: 150px;
+  float: right;
+  
+  padding: 5px;
+  z-index: 0;
+}
+
+.body .registers .box-info .profile{
+  display: none;  
+    position: absolute;
+  cursor: auto;
+  border: 0px solid #111111;
+  background-color: #F8F8FF;
+    margin-top: 0px;
+    border-bottom-left-radius: 25%;
+  
+   width: 150px;
+   margin-left: -28px;
+}
+.body .registers .box-info .profile div{
+ border: 0px solid #111111;
+ font-weight: bolder;
+ margin-top: 0px;
+ padding-left: 3px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.body .registers .box-info .profile div.pro-bg-user:hover{
+ background-color: #339933;
+}
+.body .registers .box-info .profile div.pro-bg-doctor:hover{
+ background-color: #339933;
+ border-bottom-left-radius: 25%; 
+ 
+
+}
+.body .registers .box-info .profile div:hover a{
+ color: #FFFFFF; 
+}
+
+
+
+.body .menu .menutable{
+  border: 0px solid #111111;
+  background-color: #3399CC;
+    height: 40px; 
+}
+ .body .titlepage .titlepage-guide .staff-hospital .button-one span.title{
+  display: none;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .button-two span.title{
+  display: none;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .button-three span.title{
+  display: none;
+  }
+  .body .titlepage .titlepage-guide .staff-hospital .button-four span.title{
+  display: none;
+  }
+
+ul li.menu-home-page{
+list-style: none;
+
+}
+.body .menu .menutable ul a{
+  color: #FFFFFF;
+}
+.body .menu .menutable ul{
+   width: 100%;
+  display: inline;
+  border: 0px solid #111111;
+   position: relative;
+  top: 10px;
+  margin-left: -35px;
+}
+
+.body .menu .menutable ul li{
+  list-style: none;
+  display: inline;  
+    border: 0px solid #330099;
+     padding: 0.7vw;
+  
+}
+
+.body .menu .menutable ul li:hover{
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #6699FF;
+  font-weight: bolder;
+  padding: 10px 0px 10px 0px;
+}
+.body .menu .menutable ul li:hover .hd-sudung-block{
+  display: block;
+  cursor: pointer;
+}
+.body .menu .menutable ul li.menu-home-page:hover a{
+  color: #6699FF;
+}
+.body .menu .menutable ul li .hd-sudung-block{
+  position: absolute;
+  display: none;
+  cursor: auto;
+  border: 1px solid #FFFFFF;
+  margin-top: 10px;
+  background-color:#FFFFFF;
+  margin-left: 61%;   
+  width: 150px;
+  height: 130px;
+  color: #111111;
+  z-index: 1;
+}
+.body .menu .menutable ul li .hd-sudung-block .top-hd-sudung{
+
+}
+.body .menu .menutable ul li .hd-sudung-block .top-hd-sudung div{
+border: 0px solid #111111;
+padding: 15px 5px 15px 5px;
+font-size: 12px;
+height: 33.33%;
+color: #111111;
+}
+.body .menu .menutable ul li .hd-sudung-block .top-hd-sudung div:hover{
+border: 0px solid #111111;
+padding: 15px 5px 15px 5px;
+font-size: 12px;
+height: 33.33%;
+background-color:#6699FF;
+color: #FFFFFF;
+}
+
+.body .titlepage .titlepage-guide{
+  
+  border: 0px solid #111111;
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+
+  color: #FFFFFF;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.body .titlepage{
+  position: absolute;
+ 
+  margin-top: 16%;
+  
+}
+.body .titlepage .advert-clinic{
+ width: 100%;
+
+ border: 0px solid #111111;
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ color: #336699;
+ font-weight: bold;
+ font-size: 20px;
+ color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.body .titlepage .advert-clinic .title-advert{
+ width: 100%;
+ border: 0px solid #111111;
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ color: #336699;
+ font-weight: bold;
+ font-size: 10px;
+ color: white;
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+.body .titlepage .advert-clinic .staff-hospital{
+  
+   border: 0px solid #111111;
+} 
+.body .titlepage .staff-hospital .login-doctor{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 150px;
+}
+
+.body .titlepage .advert-clinic .staff-hospital .register-website{
+  border: 3px solid #FF9900;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #009966;
+  text-align: center;
+  margin-top: 3px;
+  min-width: 100px;
+  height: 70px;
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+}
+.body .titlepage .advert-clinic .staff-hospital .register-website:hover{
+  border: 3px solid #FF9900;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FF9900;
+  background-color: #336666;
+  text-align: center;
+  margin-top: 3px;
+  min-width: 100px;
+  height: 70px;
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+}
+
+.body .titlepage .staff-hospital .register-calendar-examination{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 200px;
+  height: 70px;
+  font-size: 17px;
+}
+.body .titlepage .staff-hospital .login-doctor:hover, .login-staff:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+  .body .titlepage .staff-hospital .register-calendar-examination:hover, .register-clinic:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+  .body .titlepage .staff-hospital .register-clinic:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+  .body .titlepage .staff-hospital .register-staff-clinic:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+.body .titlepage .staff-hospital .login-staff{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 150px;
+}
+.body .titlepage .staff-hospital .register-clinic{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 200px;
+  height: 70px;
+  font-size: 17px;
+}
+.body .titlepage .staff-hospital .register-staff-clinic{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 200px;
+   height: 70px;
+  font-size: 17px;
+}
+.body .titlepage .titlepage-guide .staff-hospital .button-four .reference-service{
+  border: 3px solid #99CC66;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  background-color: #99CC66;
+  text-align: center;
+  margin-top: 3px;
+  width: 200px;
+  height: 70px;
+  font-size: 17px;
+}
+
+.body .titlepage .staff-hospital .login-staff:hover{
+  color: #99CC66;
+  background-color: #FFFFFF;
+  }
+
+
+.login-hospital{
+  position: fixed;
+    top: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:0; 
+  opacity: 0.1s;
+}  
+
+.body .login-hospital .content-login-doctor{
+    width: 500px;
+    border: 0px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    color: #111111;
+    position: relative;
+}  
+.body .login-hospital .content-login-doctor .image{
+  text-align: center;
+}
+.body .login-hospital .content-login-doctor .title{
+  text-align: center;
+}
+.body .login-hospital .content-login-doctor .form-login{
+  width: 297px;
+  border: 0px solid #111111;
+  margin-right: auto;
+  margin-left: auto;
+}
+.body .login-hospital .content-login-doctor .form-login .controls{
+   margin-top: 3px;
+}
+.body .login-hospital .content-login-doctor .form-login .controls-submit{
+   text-align: center;
+   margin-top: 5px;
+}
+.body .login-hospital .content-login-doctor .form-login .controls .maphongkham{
+  float: right;
+
+}
+.body .login-hospital .content-login-doctor .form-login .controls .email{
+  float: right;
+}
+.body .login-hospital .content-login-doctor .form-login .controls .password{
+    float: right;
+  }
+.body .login-hospital .content-login-doctor .form-login .controls .select-work{
+  float: right;
+}
+.login-hospital{
+  position: fixed;
+    top: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:0; 
+  opacity: 0.9;
+}  
+.body .content .page{
+  padding: 15px;
+  padding-top: 10px;
+}
+.body .content .content-webpk{
+ margin-top: 30px;
+}
+.body .content .content-webpk .gioithieu{
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.body .content .content-webpk .gioithieu .title{
+ font-size: 25px;
+ text-align: center;
+
+}
+.body .content .content-webpk .gioithieu .title-mini{
+
+ text-align: center;
+}
+.body .content .content-webpk .content-webpk-info{
+margin-top: 50px;
+}
+.body .content .page .content-webpk .content-webpk-info .row-bh{
+  width: 100%;
+   border: 0px solid #111111;
+   
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4{
+ border: 0px solid #111111;
+ width: 50%;
+ float: left;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 5px;
+ padding-right: 5px;
+ text-align: center;
+ min-height: 305px;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col{
+ border: 0px solid #111111; 
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col .img{ 
+ border: 1px solid #111111;
+ padding: 15px;
+ border-radius: 50%;
+ height: 150px;
+ width: 150px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-col .img img{ 
+ padding: 13px;
+ width: 100%;
+ height: 100%;
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-row-one{
+ border: 0px solid #111111; 
+ font-size: 1.4em;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px
+}
+.body .content .content-webpk .content-webpk-info .row-bh .col-mdbh-4 .content-row-two{
+ border: 0px solid #111111; 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family: monospace, monospace;
+ padding-left: 10px;
+ padding-right: 10px
+}
+
+
+.body .content .page .login{
+  border: 0px solid #111111;
+  width: 310;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body .content .page .login .image-login-user img{
+  width: 40%;
+  height: 40%;
+}
+.body .content .page .login .form-login .controls-submit input.login-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .login .form-login .controls-submit input.reset-submit{
+  margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .login .form-login .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+
+.body .content .page .signup{
+  border: 0px solid #111111;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body .content .page .image-sign-up img{
+ height: 40%;
+ width: 40%;
+}
+.body .content .page .signup .form-sign lable{
+
+}
+.body .content .page .signup .form-sign .controls .fullname, .email, .password, .cmtnd, .date-birth, .numeric, .street, .county, .select-town{
+ float: right;
+}
+.body .content .page .signup .form-sign .controls .email{
+border-radius: 20;
+}
+.body .content .page .signup .form-sign .controls .image{
+   float: right;
+}
+
+.body .content .page .signup .form-sign .controls .date-birth{
+  width: 175px;
+}
+
+.body .content .page .signup .form-sign .controls, .controls-submit{
+ margin-top: 3px;
+}
+.body .content .page .signup .form-sign .controls .fullname{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .email {
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .password{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .cmtnd{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .date-birth{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .numeric{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .street{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls .county{
+  border-radius: 3px;
+  height: 30px;
+}
+.body .content .page .signup .form-sign .controls select{
+  border-radius: 3px;
+  height: 30px;
+
+}
+
+.body .content .page .signup .form-sign .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+.body .content .page .signup .form-sign .controls-submit input.register-user{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+.body .content .page .signup .form-sign .controls-submit input.reset-register{
+ margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+
+.body .content .page .signup .title-sign{
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.body .content .page .signup .form-sign .controls-submit{
+ margin-top: 5px;
+ text-align: center;
+}
+
+.body .content .page .profile{
+  border: 0px solid #111111;
+}
+.body .content .page .profile .profile-left{
+  border: 0px solid #111111;
+  width: 100%;
+  height: 100%;
+  
+}
+.body .content .page .profile .profile-left .image-profile{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.body .content .page .profile .profile-left .image-profile:hover{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.body .content .page .profile .profile-left .image-profile .replay-image{
+ position: absolute;
+ float: inherit;
+ display: none;
+ cursor: auto;
+}
+.body .content .page .profile .profile-left .image-profile:hover .replay-image{
+ position: absolute;
+ float: inherit;
+  display: block;
+  cursor: pointer;
+}
+.body .content .page .profile .profile-left .image-profile {
+ float: left;
+}
+
+.body .content .page .profile .profile-right{
+  border: 1px solid #111111;
+  float: right;
+  width: 100%;
+  height: 100%;
+ 
+}
+.step3, .step2, .step1 {
+  border-radius: 50%; 
+  border: 0px solid #111111;
+  width: 30px;
+  height: 30px;
+  background-color: #DDDDDD;
+  color: #FFFFFF;
+  text-align:center;
+  font-size: 19px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation{
+ margin: 5%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation .label-user-infobasic{
+ border: 0px solid #111111; 
+ width: 100%;
+ padding: 10px;
+ background-color: #f5f5f5;
+ border-radius: 20px;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic{
+  margin: 10px;
+  border: 0px solid #111111;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls{
+ margin: 15px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls dt{
+ width: 30%;
+ float: left;
+ border: 0px solid #111111;
+ text-align: right;
+ padding: 5px;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infobasic .controls dd{
+ width: 50%;
+  float: left;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation .label-user-infoother{
+ border: 0px solid #111111; 
+ width: 100%;
+ padding: 10px;
+ background-color: #f5f5f5;
+ border-radius: 20px;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother{
+  margin: 10px;
+  border: 0px solid #111111;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls{
+ margin: 15px; 
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls dt{
+ width: 30%;
+ float: left;
+ border: 0px solid #111111;
+ text-align: right;
+ padding: 5px;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls dd{
+ width: 50%;
+  float: left;
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .dl-edit-infoother .controls select{
+  height: 34px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.body .content .page .profile .profile-right .box-profile-right .edit-infomation div .controls-submit .register-user{
+margin: 0;
+  font-family: serif;
+  color: inherit;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+
+.body .content .page .profile .profile-right .box-profile-right{
+
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website{
+  
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .street-border{
+  border-bottom: 1px solid #111111;
+    position: relative;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .check-box .step-step1{
+  float: left;
+  width: 130px;
+  border: 0px solid #111111;
+  text-align: center;
+  margin-left: -20%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step-step2{
+  float: left;
+  width: 130px;
+  border: 0px solid #111111;
+ text-align: center;
+ margin-left: 20%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step-step3{
+  float: right;
+  width: 130px;
+  border: 0px solid #111111;
+  text-align: center;
+  margin-right: -20%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .check-box .step .step1{
+  margin-left: 40%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step .step2{
+margin-left: 40%;
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step .step3{
+margin-left: 40%;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .check-box{
+  border: 1 solid #111111;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .check-box .step{
+    margin-top: -15px;
+    position: absolute;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .login-website{
+  border: 1px solid #111111;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .auth-website{
+  border: 0px solid #111111;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .title{
+  text-align: center;
+  border: 0px solid #111111;
+}
+
+
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website{
+  width: 310px;
+  border: 0px solid #111111;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website .controls{
+  margin-top: 3px;
+  border: 0px solid #111111;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website .controls-submit{
+  text-align: center;
+}
+.body .content .page .profile .profile-right .box-profile-right .auth-website .form-auth-website .controls .nameroom{
+   float: right;
+  
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 select{
+  width: 50%;
+
+}
+.body .content .page .profile .profile-right .box-profile-right .info-register-website-step2 .register-web-step2 textarea{
+  width: 99%;
+
+}
+
+
+
+.body .footer{
+  width: 100%;
+  min-width: 260px;
+  border: 1px solid #111111;
+  
+    padding: 10px;
+   background-color: #111111; 
+}
+.body .footer .title-footer div{
+  color: #FFFFFF;
+
+}
+.body .footer .title-footer div.social-network{
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+.body .footer .title-footer{
+  width: 95%;
+   min-width: 260px;
+   border: 1px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.body .footer .title-footer ul li{
+ margin-left: -20px;
+}
+.body .footer .title-footer div a{
+  padding: 5px; 
+   
+}
+
+
+
+
+  }
+
+}
+
+
+        

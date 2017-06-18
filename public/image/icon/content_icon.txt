@@ -1,0 +1,19 @@
+﻿#247
+Hỗ trợ đặt lịch khám 24/7 tiết kiệm được thời gian của bệnh nhân.
+
+#question
+Hỗ trợ tư vấn trực tuyến qua trò chuyện với bác sĩ giúp giải đáp các thắc mắc của quý khách.
+
+#basic
+Thủ tục đơn giản giúp bệnh nhân không bỡ ngỡ!
+
+#Free
+Đăng kí khám hoàn toàn miễn phí
+
+#profile
+Quản lý lịch khám và hồ sơ khám dễ dàng
+
+#search
+Hỗ trợ tìm kiếm thông tin chính xác đáng tin cậy.
+
+

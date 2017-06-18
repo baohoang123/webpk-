@@ -1,0 +1,15 @@
+html, body{
+ margin: 0;
+ padding: 0;
+}
+.body .footer{
+	width: 100%;	
+	border: 1px solid #111111;	
+    padding: 10px;
+    background-color: #111111; 
+}
+
+.body .copyright{
+	height: 30px;
+	text-align: center;
+}
